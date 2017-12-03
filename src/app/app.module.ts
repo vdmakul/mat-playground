@@ -3,13 +3,15 @@ import { NgModule } from '@angular/core';
 
 
 import { AppComponent } from './app.component';
-import {MatButtonModule, MatIconModule, MatMenuModule, MatToolbarModule} from "@angular/material";
+import {MatButtonModule, MatIconModule, MatMenuModule, MatTableModule, MatToolbarModule} from "@angular/material";
 import {NoopAnimationsModule} from "@angular/platform-browser/animations";
+import { ResultsComponent } from './results/results.component';
 
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    ResultsComponent
   ],
   imports: [
     BrowserModule,
@@ -17,6 +19,7 @@ import {NoopAnimationsModule} from "@angular/platform-browser/animations";
     MatMenuModule,
     MatIconModule,
     MatToolbarModule,
+    MatTableModule,
     NoopAnimationsModule
   ],
   providers: [],

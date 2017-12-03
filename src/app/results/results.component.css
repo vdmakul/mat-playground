@@ -1,0 +1,20 @@
+mat-cell.group1 {
+  background-color: azure;
+}
+
+mat-cell.group2 {
+
+}
+
+mat-cell.group3 {
+  background-color: azure;
+}
+
+mat-cell.group4 {
+
+}
+
+mat-cell.divider {
+  border-width: medium;
+  border-color: green;
+}
