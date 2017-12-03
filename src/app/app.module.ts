@@ -6,12 +6,14 @@ import { AppComponent } from './app.component';
 import {MatButtonModule, MatIconModule, MatMenuModule, MatTableModule, MatToolbarModule} from "@angular/material";
 import {NoopAnimationsModule} from "@angular/platform-browser/animations";
 import { ResultsComponent } from './results/results.component';
+import { ResultsTableComponent } from './results-table/results-table.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
-    ResultsComponent
+    ResultsComponent,
+    ResultsTableComponent
   ],
   imports: [
     BrowserModule,
