@@ -7,13 +7,15 @@ import {MatButtonModule, MatIconModule, MatMenuModule, MatTableModule, MatToolba
 import {NoopAnimationsModule} from "@angular/platform-browser/animations";
 import { ResultsComponent } from './results/results.component';
 import { ResultsTableComponent } from './results-table/results-table.component';
+import { ResultRowComponent } from './results-table/result-row/result-row.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
     ResultsComponent,
-    ResultsTableComponent
+    ResultsTableComponent,
+    ResultRowComponent
   ],
   imports: [
     BrowserModule,
