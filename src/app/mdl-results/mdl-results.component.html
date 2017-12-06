@@ -1,0 +1,21 @@
+<table class="mdl-data-table mdl-js-data-table mdl-data-table--selectable mdl-shadow--2dp">
+  <thead>
+  <tr>
+    <th class="mdl-data-table__header--sorted-ascending group1">Rank</th>
+    <th class="group2">BIB</th>
+    <th class="group2">Name </th>
+    <th class="group3">Group </th>
+    <th class="group3">Club </th>
+    <th class="group4">Time </th>
+    <th class="group4">Penalties</th>
+    <th class="group5">Results </th>
+  </tr>
+  </thead>
+
+  <tbody>
+
+    <app-mdl-result-row *ngFor="let result of results" [result]="result">
+    </app-mdl-result-row>
+
+  </tbody>
+</table>
